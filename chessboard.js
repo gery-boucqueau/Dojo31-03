@@ -18,7 +18,7 @@ const chessboard = () => {
 
    let grid = ruler.map((x, col) => ruler.map((y, row) => formatCoord(col, row + 1)))
 
-   grid[0][9] = 'rouge'
+   //grid[0][9] = 'rouge'
 
    console.log(grid)
    return grid
